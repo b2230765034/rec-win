@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import WalletConnect from "./components/WalletConnect";
+import Scan from "./pages/Scan";
 
-function App() {
+export default function App() {
+  const [wallet, setWallet] = useState<string | null>(null);
+
+  if (!wallet) return <WalletConnect onConnect={setWallet} />;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2 style={{ textAlign: "center", margin: "20px 0" }}>♻️ Recycle-to-Earn App</h2>
+      <Scan wallet={wallet} />
+      {/* <Payment wallet={wallet} /> */}
     </div>
   );
 }
-
-export default App;
