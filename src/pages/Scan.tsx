@@ -2,18 +2,16 @@ import React, { useState } from "react";
 import QRScanner from "../components/QRScanner";
 
 type ScanProps = {
-  wallet: string | null;  // wallet propunu burada belirt
+  wallet: string | null;
 };
 
 export default function Scan({ wallet }: ScanProps) {
   const [material, setMaterial] = useState<string | null>(null);
 
-  // İstersen wallet ile ilgili bir şeyler yapabilirsin, mesela console.log(wallet)
-
   return (
     <div className="p-4 max-w-md mx-auto">
       {!material ? (
-        <QRScanner onMaterialDetected={(mat: string) => setMaterial(mat)} />
+        <QRScanner onMaterialDetected={(mat: string) => setMaterial(mat)} wallet={wallet} />
       ) : (
         <div>
           <h2 className="text-pink-600 font-bold mb-4">Malzeme seçildi!</h2>
