@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { connectFreighter } from "../utils/freighter";
 
+
 type WalletConnectProps = {
   onConnect: (walletAddress: string) => void;
 };
@@ -36,9 +37,10 @@ export default function WalletConnect({ onConnect }: WalletConnectProps) {
         disabled={loading}
         className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md transition duration-300"
       >
-        {loading ? "Bağlanıyor..." : "Freighter Cüzdanını Bağla"}
+        {loading ? "Bağlanıyor..." : "Connect Freighter Wallet "}
       </button>
       {error && <p className="text-red-600 mt-4">{error}</p>}
     </div>
   );
 }
+

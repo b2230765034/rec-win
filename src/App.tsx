@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import WalletConnect from "./components/WalletConnect";
 import Home from "./pages/Home";
 import Scan from "./pages/Scan";
-import Payment from "./pages/Payment";
+import MarketplacePage from "./pages/Payment";
 // import Market from "./components/Market";
 
 
@@ -39,17 +39,16 @@ export default function App() {
 
   return (
     <Router>
-      <div className="max-w-3xl mx-auto p-4">
-      <div className="min-h-screen bg-gray-0">
-      <Payment />
-    </div>
-        <h2 className="text-center text-3xl font-bold mb-6 text-pink-600">♻️ Recycle-to-Earn App</h2>
+      <div className="mx-auto p-4">
+      {/* <div className="min-h-screen bg-gray-0">
+        <Payment />
+      </div> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/scan" element={<Scan wallet={wallet} />} />
-          
+          <Route path="/market" element={<MarketplacePage />} />
           {/* Tanımlı olmayan yolları ana sayfaya yönlendir */}
-          <Route path="*" element={<Navigate to="/" replace />} />
+          {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
         </Routes>
       </div>
     </Router>

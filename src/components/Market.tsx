@@ -45,7 +45,7 @@ export default function Market({ markets, onBuy, cartCount, wallet }: MarketProp
     });
 
   return (
-    <div className="flex flex-col min-h-screen w-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+    <div className="flex flex-col min-h-screen w-full bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       {/* Header */}
       <header className="bg-white shadow-xl border-b border-blue-100 backdrop-blur-sm w-full">
         <div className="w-full px-6 lg:px-12 flex items-center justify-between h-24 lg:h-28">
