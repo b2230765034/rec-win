@@ -8,9 +8,6 @@
 ![WhatsApp Image 2025-06-22 at 05 27 55_bc68ab50](https://github.com/user-attachments/assets/d7a46a0c-354f-4caa-8133-247b83838a3f)
 
 
-## 🚀 Live Demo
-[**Try RecWin Now**](https://your-demo-link.com) - *Make sure this link works!*
-
 ## 🎯 The Problem We're Solving
 
 **Global recycling rate is only 16%** - while countries like Germany achieve 65%. We're bridging this gap by making recycling rewarding and fun, especially for teenagers who will inherit our planet.
@@ -183,7 +180,7 @@ let valid_materials = vec![
 ## 🔗 Links & Resources
 
 - **Smart Contract (Testnet)**: `GCXX...XXXX` (Stellar Expert)
-- **Pitch Deck**: [View Presentation]([(https://docs.google.com/presentation/d/1Qn0Cs5CqIygiAykdxi_BMaNjJrw_-SZYxdgN28d1Dzk/edit?usp=sharing)])
+- **Pitch Deck**: [View Presentation][(https://docs.google.com/presentation/d/1Qn0Cs5CqIygiAykdxi_BMaNjJrw_-SZYxdgN28d1Dzk/edit?usp=sharing)]
 
 ## 👥 Team
 
