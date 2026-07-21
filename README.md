@@ -183,15 +183,12 @@ let valid_materials = vec![
 ## 🔗 Links & Resources
 
 - **Smart Contract (Testnet)**: `GCXX...XXXX` (Stellar Expert)
-- **Frontend Demo**: [recwin-demo.vercel.app](https://your-demo-link.com)
-- **Pitch Deck**: [View Presentation](https://your-pitch-deck-link.com)
-- **Demo Video**: [3-minute walkthrough](https://your-video-link.com)
+- **Pitch Deck**: [View Presentation]((https://docs.google.com/presentation/d/1Qn0Cs5CqIygiAykdxi_BMaNjJrw_-SZYxdgN28d1Dzk/edit?usp=sharing))
 
 ## 👥 Team
 
 - **Tech Lead**: Blockchain development & smart contracts
-- **Frontend Developer**: React/Next.js implementation
-- **UX Designer**: Mobile-first user experience
+- **Frontend Developer/ UX Designer**: React/Next.js implementation, Mobile-first user experience
 - **Business Development**: Market partnerships & growth
 
 ## 📄 License
