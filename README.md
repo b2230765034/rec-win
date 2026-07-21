@@ -183,7 +183,7 @@ let valid_materials = vec![
 ## 🔗 Links & Resources
 
 - **Smart Contract (Testnet)**: `GCXX...XXXX` (Stellar Expert)
-- **Pitch Deck**: [View Presentation]((https://docs.google.com/presentation/d/1Qn0Cs5CqIygiAykdxi_BMaNjJrw_-SZYxdgN28d1Dzk/edit?usp=sharing))
+- **Pitch Deck**: [View Presentation]([(https://docs.google.com/presentation/d/1Qn0Cs5CqIygiAykdxi_BMaNjJrw_-SZYxdgN28d1Dzk/edit?usp=sharing)])
 
 ## 👥 Team
 
